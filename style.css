@@ -16,3 +16,10 @@ h1 {
 ol {
   font-size: calc(2.5vmin + 1rem);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #222;
+    color: #eee;
+  }
+}
